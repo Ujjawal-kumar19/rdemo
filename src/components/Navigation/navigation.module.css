@@ -1,0 +1,46 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 64px;
+  width: 100%;
+  padding: 2.5rem 3rem;
+}
+.logo img {
+  width: 90px;
+  padding: 0.4rem 1rem;
+  margin-left: 1px;
+}
+
+.navigationButtonContainer {
+  display: flex;
+}
+
+.navigationButton {
+  padding: 20px;
+  height: 30px;
+  line-height: 1px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000000;
+  margin: 1rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.navigationButton:hover {
+  background-color: #00b7ff;
+  color: #ffffff;
+  box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+  transition: all ease 0.2s;
+}
+
+@media only screen and (max-width: 312px) {
+  .navigationButton {
+    text-size-adjust: initial;
+  }
+}
